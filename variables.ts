@@ -7,5 +7,3 @@ let userId: number = 5;
 // boolean
 
 let loggedIn : boolean = true;
-
-//
