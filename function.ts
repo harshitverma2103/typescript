@@ -14,4 +14,13 @@ addTwo(5);
 getUpper("hello");
 loggedIn("harsh@gmail.com", 655, true, "hari")
 
+const heros = ["thor", "spiderman", "ironman"];
+heros.map((hero): string => {
+     return `hero is ${hero}`;
+})
+
+function consoleError(errMsg: string): void {
+     console.log(errMsg);
+}
+
 export { }
